@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('Norse.woff2') format('woff2'),
+        url('Norse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: black;
+}
+
+.entire-page {
+    display: flex;
+}
+
+.logo {
+    background-image: url(/home/vboxuser/repos/sign-up-form/images/halie-west-25xggax4bSA-unsplash.jpg);
+    width: 25em;
+    height: 45em;
+    background-size: 100% 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
