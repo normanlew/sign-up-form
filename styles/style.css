@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Norse';
-    src: url('Norse.woff2') format('woff2'),
-        url('Norse.woff') format('woff');
-    font-weight: normal;
+    src: url('../fonts/Norse-Bold.woff2') format('woff2'),
+        url('../fonts/Norse-Bold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
@@ -16,13 +16,76 @@ body {
 }
 
 .logo {
-    background-image: url(/home/vboxuser/repos/sign-up-form/images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url(../images/halie-west-25xggax4bSA-unsplash.jpg);
     width: 25em;
     height: 45em;
     background-size: 100% 100%;
+    position: relative;
+}
+
+.logo-banner {
+    background-color: black;
+    opacity: .4;
+    width: 25em;
+    height: 8em;
+    position: relative;
+    top: 8em;
+    display: flex;
+    justify-content: center;
+}
+
+
+.norse-image {
+    width: 6em;
+    height: 7em;
+    margin: auto;
+    margin-right: 0;
+}
+
+.norse-text {
+    font-family:"Norse";
+    color: white;
+    margin: auto;
+    margin-left: 0;
+    font-size: 5em;
+}
+
+.non-norse-text {
+    color: white;
+    margin: auto;
+    margin-left: 0;
+    font-size: 5em;
+}
+
+.footer {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.image-credit, a {
+    color: white;
 }
 
 .main {
     display: flex;
     flex-direction: column;
+}
+
+
+.information {
+    background-color: #D9D9D9;
+    color: black;
+    padding: 35px 25px 15px 20px;
+    font-size: 25px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
 }
