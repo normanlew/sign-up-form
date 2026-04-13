@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up Form</title>
-    <script src="javascript.js" defer></script>
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-    <div class="entire-page">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign up Form</title>
+        <script src="javascript.js" defer></script>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
         <div class="logo">
             <div class="logo-banner">
                 <img src="images/odin-lined.png"
                 alt="Male Norse head with helmet" class="norse-image">
                 <p class="norse-text">ODIN</p>
-                <!-- <p class="non-norse-text">N</p> -->
             </div>
             <div class="footer">
                 <p class="image-credit">
@@ -62,34 +60,23 @@
                         <div class="password">
                             <label for="uncomfirmed">PASSWORD</label>
                             <input type="password" id="uncomfirmed" 
-                             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                             name="uncomfirmed">
+                            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                            name="uncomfirmed">
                         </div>
                         <div class="confirm">
                             <label for="confirmed">CONFIRM PASSWORD</label>
                             <input type="password" id="confirmed"
-                             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                             name="confirmed">
+                            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                            name="confirmed">
                         </div>
                     </div>
                 </form>
-                <!-- <div class="name">
-                    <div class="first_name">
-   
-                    </div>
-                </div> -->
-                <!-- <div class="contact">
-
-                </div>
-                <div class="passwords">
-
-                </div> -->
             </div>
             <div class="submission">
-                <p>submit content</p>
+                <button type="submit" form="submit-form" value="form-submission">
+                Create Account</button>
+                <p>Already have an account?  <a href="login.html">Log in</a></p>
             </div>
         </div>
-
-    </div>
-</body>
+    </body>
 </html>

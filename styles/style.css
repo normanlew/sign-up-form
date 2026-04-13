@@ -9,27 +9,32 @@
 
 body {
     background-color: black;
-}
-
-.entire-page {
     display: flex;
+    /* height: 45em; */
+    height: vh;
+    width: vw;
 }
 
 .logo {
     background-image: url(../images/halie-west-25xggax4bSA-unsplash.jpg);
-    width: 25em;
-    height: 45em;
+    /* width: 25em; */
+    /* width: 80%; */
+    /* width:90%; */
+    /* height: 45em; */
     background-size: 100% 100%;
     position: relative;
+    width: 35%;
 }
 
 .logo-banner {
     background-color: black;
     opacity: .4;
-    width: 25em;
-    height: 8em;
+    /* width: 25em; */
+    height: 20%;
+    /* height: 8em; */
     position: relative;
-    top: 8em;
+    /* top: 8em; */
+    top: 10%;
     display: flex;
     justify-content: center;
 }
@@ -71,12 +76,17 @@ body {
 .main {
     display: flex;
     flex-direction: column;
+    width: 65%;
 }
 
 
-.information {
+.information,
+.submission {
     background-color: #D9D9D9;
     color: black;
+}
+
+.information {
     padding: 100px 55px 20px 40px;
     font-size: 25px;
 }
@@ -119,4 +129,6 @@ input:invalid {
     border-color: red;
 }
 
-
+.submission {
+    padding: 20px 60px 15px 40px
+}
