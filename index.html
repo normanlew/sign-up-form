@@ -35,18 +35,55 @@
                 <div class="exortation">
                     <p>Let's do this!</p>
                 </div>
-                <div class="name">
-                    <div class="first_name">
-                        <label for="first">FIRST NAME</label>
-                        <input type="text" id="first" name="first">
+                <form id="submit-form">
+                    <div class="names">
+                        <div class="first_name">
+                            <label for="first">FIRST NAME</label>
+                            <input type="text" id="first" name="first">
+                        </div>
+                        <div class="last_name">
+                            <label for="last">LAST NAME</label>
+                            <input type="text" id="last" name="last">
+                        </div>
                     </div>
-                </div>
-                <div class="contact">
+
+                    <div class="contact">
+                        <div class="email">
+                            <label for="email_contact">EMAIL</label>
+                            <input type="email" id="email_contact" name="email_contact">
+                        </div>
+                        <div class="phone">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="number" id="phone_number" name="phone_number">
+                        </div>
+                    </div>
+
+                    <div class="passwords">
+                        <div class="password">
+                            <label for="uncomfirmed">PASSWORD</label>
+                            <input type="password" id="uncomfirmed" 
+                             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                             name="uncomfirmed">
+                        </div>
+                        <div class="confirm">
+                            <label for="confirmed">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirmed"
+                             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                             name="confirmed">
+                        </div>
+                    </div>
+                </form>
+                <!-- <div class="name">
+                    <div class="first_name">
+   
+                    </div>
+                </div> -->
+                <!-- <div class="contact">
 
                 </div>
                 <div class="passwords">
 
-                </div>
+                </div> -->
             </div>
             <div class="submission">
                 <p>submit content</p>

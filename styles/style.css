@@ -77,15 +77,46 @@ body {
 .information {
     background-color: #D9D9D9;
     color: black;
-    padding: 35px 25px 15px 20px;
+    padding: 100px 55px 20px 40px;
     font-size: 25px;
 }
 
 .fields {
     display: flex;
     flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 15px 60px 15px 40px
 }
 
-.name {
+.names, 
+.contact,
+.passwords {
     display: flex;
+    margin-bottom: 30px
 }
+
+.first_name,
+.email,
+.password {
+    margin-right: 80px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    border-color: #E5E7EB;
+}
+
+input:focus {
+    border-color: blue;
+    box-shadow: 1px 1px turquoise;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+
