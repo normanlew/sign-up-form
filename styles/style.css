@@ -135,6 +135,19 @@ input:invalid {
 
 .submission {
     /* padding: 20px 60px 15px 40px; */
-    padding: 20px 60px 15px 40px;
+    padding: 30px 60px 15px 40px;
     height: 40%;
+}
+
+.submit-button {
+    padding: 10px 40px;
+    background-color: #596D48;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.login {
+    color: #596D48;
+    text-decoration: none;
 }
