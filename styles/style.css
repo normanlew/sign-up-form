@@ -11,8 +11,8 @@ body {
     background-color: black;
     display: flex;
     /* height: 45em; */
-    height: vh;
-    width: vw;
+    height: 100vh;
+    width: 100vw;
 }
 
 .logo {
@@ -34,15 +34,16 @@ body {
     /* height: 8em; */
     position: relative;
     /* top: 8em; */
-    top: 10%;
+    top: 20%;
     display: flex;
     justify-content: center;
 }
 
 
 .norse-image {
-    width: 6em;
-    height: 7em;
+    width: 17%;
+    /* height: 7em; */
+    height: 85%;
     margin: auto;
     margin-right: 0;
 }
@@ -77,8 +78,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 65%;
+    height: 100%;
 }
-
 
 .information,
 .submission {
@@ -87,8 +88,10 @@ body {
 }
 
 .information {
-    padding: 100px 55px 20px 40px;
-    font-size: 25px;
+    padding: 80px 55px 20px 40px;
+    /* font-size: 25px; */
+    font-size: 1.5em;
+    height: 25%;
 }
 
 .fields {
@@ -96,7 +99,8 @@ body {
     flex-direction: column;
     background-color: white;
     color: black;
-    padding: 15px 60px 15px 40px
+    /* padding: 15px 60px 15px 40px; */
+    height: 35%
 }
 
 .names, 
@@ -130,5 +134,6 @@ input:invalid {
 }
 
 .submission {
-    padding: 20px 60px 15px 40px
+    /* padding: 20px 60px 15px 40px; */
+    height: 40%;
 }
