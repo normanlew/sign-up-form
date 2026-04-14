@@ -10,17 +10,12 @@
 body {
     background-color: black;
     display: flex;
-    /* height: 45em; */
     height: 100vh;
     width: 100vw;
 }
 
 .logo {
     background-image: url(../images/halie-west-25xggax4bSA-unsplash.jpg);
-    /* width: 25em; */
-    /* width: 80%; */
-    /* width:90%; */
-    /* height: 45em; */
     background-size: 100% 100%;
     position: relative;
     width: 35%;
@@ -29,11 +24,8 @@ body {
 .logo-banner {
     background-color: black;
     opacity: .4;
-    /* width: 25em; */
     height: 20%;
-    /* height: 8em; */
     position: relative;
-    /* top: 8em; */
     top: 20%;
     display: flex;
     justify-content: center;
@@ -42,7 +34,6 @@ body {
 
 .norse-image {
     width: 17%;
-    /* height: 7em; */
     height: 85%;
     margin: auto;
     margin-right: 0;
@@ -89,7 +80,6 @@ body {
 
 .information {
     padding: 80px 55px 20px 40px;
-    /* font-size: 25px; */
     font-size: 1.5em;
     height: 25%;
 }
@@ -134,7 +124,6 @@ input:invalid {
 }
 
 .submission {
-    /* padding: 20px 60px 15px 40px; */
     padding: 30px 60px 15px 40px;
     height: 40%;
 }
